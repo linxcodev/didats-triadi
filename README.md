@@ -4,7 +4,7 @@ Melalui halaman index.php
 1. masukkan email dan password
 2. submit, nanti muncul json respon
 
-Melalui terminal
+Melalui terminal<br>
 Form.php
 ```
 public $data = [
