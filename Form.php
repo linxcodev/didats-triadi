@@ -1,6 +1,4 @@
 <?php
-// require_once('FormResponse.php');
-
 class Form
 {
   public $error;
@@ -24,9 +22,7 @@ class Form
       'details' => ($this->error) ? [] : $response
     ];
 
-    $res = json_encode($response);
-    echo $res;
-    // header("location:index.php?"response=$res);
+    echo json_encode($response);
   }
 
   public function validation($data, $requirement)
